@@ -551,3 +551,16 @@ org.redisson.client.RedisTimeoutException: Command execution timeout for command
 24-04-22.18:42:06.614 [main            ] INFO  StrategyArmoryTest     - 测试结果：105 - 奖品ID值
 24-04-22.18:42:06.619 [main            ] INFO  StrategyArmoryTest     - 测试结果：106 - 奖品ID值
 24-04-22.18:42:06.622 [main            ] INFO  StrategyArmoryTest     - 测试结果：104 - 奖品ID值
+24-04-22.20:15:24.347 [main            ] INFO  StrategyArmoryTest     - Starting StrategyArmoryTest using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 43904 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
+24-04-22.20:15:24.348 [main            ] INFO  StrategyArmoryTest     - The following 1 profile is active: "dev"
+24-04-22.20:15:25.305 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-04-22.20:15:25.313 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-04-22.20:15:25.354 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+24-04-22.20:15:27.163 [main            ] INFO  Version                - Redisson 3.23.4
+24-04-22.20:15:28.073 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-22.20:15:28.097 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-22.20:15:30.027 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-04-22.20:15:30.124 [main            ] INFO  StrategyArmoryTest     - Started StrategyArmoryTest in 6.206 seconds (JVM running for 7.098)
+24-04-22.20:15:30.517 [main            ] INFO  StrategyArmoryTest     - 测试结果：103 - 奖品ID值
+24-04-22.20:15:30.521 [main            ] INFO  StrategyArmoryTest     - 测试结果：101 - 奖品ID值
+24-04-22.20:15:30.524 [main            ] INFO  StrategyArmoryTest     - 测试结果：105 - 奖品ID值

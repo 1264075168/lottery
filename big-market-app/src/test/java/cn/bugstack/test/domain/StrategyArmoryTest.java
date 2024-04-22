@@ -21,21 +21,6 @@ import javax.annotation.Resource;
 public class StrategyArmoryTest {
     @Resource
     IStrategyArmory strategyArmory;
-    @Test
-    public void test_strategyArmory_notNull() {
-        // 断言 strategyArmory 不为空
-        Assert.assertNotNull(strategyArmory);
-    }
-    @Test
-    public void test_assembleLotteryStrategy_withNonNullStrategyId() {
-        // 定义一个非空的 strategyId
-        Long strategyId = 100002L;
-
-        // 断言 strategyId 不为空
-        Assert.assertNotNull(strategyId);
-
-        // 调用被测试的方法并进行其他测试逻辑...
-    }
 
     @Test
     public void test_strategyArmory(){

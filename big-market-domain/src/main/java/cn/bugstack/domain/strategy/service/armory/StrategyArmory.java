@@ -19,8 +19,9 @@ import java.util.*;
 public class StrategyArmory implements IStrategyArmory{
     @Resource
     private IStrategyRepository repository;
+    //第一个动作=========装配========================================
     @Override
-    public void assembleLotteryStrategy(long strategyId) {
+    public boolean assembleLotteryStrategy(long strategyId) {
     //第一步：根据策略id查值，DDD架构不需要自己去调Dao，交给基础层去调
        //查询策略配置
         List<StrategyAwardEntity> strategyAwardEntities = repository.queryStrateguAwardList(strategyId);
@@ -64,13 +65,17 @@ public class StrategyArmory implements IStrategyArmory{
         // 8. 存放到 Redis
         //第二个参数不能传rateRange，如果概率总和不为1，Map就会剩余空位，查询为空
         repository.storeStrategyAwardSearchRateTables(strategyId, shuffleStrategyAwardSearchRateTables.size(), shuffleStrategyAwardSearchRateTables);
-
+        return true;
     }
-
+    //第2个动作=========抽奖========================================
     @Override
     public Integer getRandomAwardId(Long strategyId) {
+        // 分布式部署下，不一定为当前应用做的策略装配。也就是值不一定会保存到本应用，而是分布式应用，所以需要从 Redis 中获取。
         int rateRange = repository.getRateRange(strategyId);
+        // 通过生成的随机值，获取概率值奖品查找表的结果
         return repository.getStrategyAwardAssemble(strategyId, new SecureRandom().nextInt(rateRange));
+        //nextInt(rateRange) 是 SecureRandom 类的一个方法，它生成一个随机的整数，范围是从 0 到 rateRange - 1，
+        // 即 [0, rateRange)。这个方法的参数 rateRange 指定了随机数的范围，即生成的随机数不会超过 rateRange - 1。
     }
 
 

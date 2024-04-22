@@ -51,7 +51,7 @@ public class StrategyRepository implements IStrategyRepository {
         redisService.setValue(cacheKey, strategyAwardEntities);//把新读出来的数据存储到redis
         return strategyAwardEntities;
     }
-
+    //=========domain层两个动作相关的方法都在基础层定义===============
     @Override
     public void storeStrategyAwardSearchRateTables(long strategyId, Integer rateRange, Map<Integer, Integer> shuffleStrategyAwardSearchRateTables) {
         // 1. 存储抽奖策略范围值，如10000，用于生成1000以内的随机数
@@ -61,11 +61,15 @@ public class StrategyRepository implements IStrategyRepository {
         cacheRateTable.putAll(shuffleStrategyAwardSearchRateTables);
     }
 
+    //从 Redis 中获取抽奖策略的概率范围值：
+    //它根据策略的 ID 从 Redis 中获取对应的概率范围值，即键为 Constants.RedisKey.STRATEGY_RATE_RANGE_KEY + strategyId 的值。
     @Override
     public int getRateRange(Long strategyId) {
         return redisService.getValue(Constants.RedisKey.STRATEGY_RATE_RANGE_KEY + strategyId);
     }
 
+    //用于根据概率范围值和给定的概率键从 Redis 中获取对应的奖品 ID：
+    //它根据策略的 ID 和给定的概率键从 Redis 中获取对应的奖品 ID，即键为 Constants.RedisKey.STRATEGY_RATE_TABLE_KEY + strategyId，概率键为 rateKey
     @Override
     public Integer getStrategyAwardAssemble(Long strategyId, int rateKey) {
         return redisService.getFromMap(Constants.RedisKey.STRATEGY_RATE_TABLE_KEY + strategyId, rateKey);
