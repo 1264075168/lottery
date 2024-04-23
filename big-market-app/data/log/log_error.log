@@ -24,3 +24,8 @@ org.redisson.client.RedisTimeoutException: Command execution timeout for command
 	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:750)
+24-04-24.05:49:04.776 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m50s554ms215µs200ns).
+24-04-24.05:50:52.788 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m15s96ms169µs700ns).
+24-04-24.06:02:02.701 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m25s328ms992µs400ns).
+24-04-24.06:02:51.848 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49s147ms372µs500ns).
+24-04-24.06:03:58.950 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m7s102ms54µs200ns).

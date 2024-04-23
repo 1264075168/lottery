@@ -6,8 +6,9 @@ import cn.bugstack.domain.strategy.model.entity.RuleMatterEntity;
 import cn.bugstack.domain.strategy.model.valobj.RuleLogicCheckTypeVO;
 import cn.bugstack.domain.strategy.repository.IStrategyRepository;
 import cn.bugstack.domain.strategy.service.armory.IStrategyDispatch;
-import cn.bugstack.domain.strategy.service.rule.ILogicFilter;
-import cn.bugstack.domain.strategy.service.rule.factory.DefaultLogicFactory;
+import cn.bugstack.domain.strategy.service.rule.chain.factory.DefaultChainFactory;
+import cn.bugstack.domain.strategy.service.rule.filter.ILogicFilter;
+import cn.bugstack.domain.strategy.service.rule.filter.factory.DefaultLogicFactory;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
@@ -30,9 +31,8 @@ public class DefaultRaffleStrategy extends AbstractRaffleStrategy{
     @Resource
     private DefaultLogicFactory logicFactory;
 
-    public DefaultRaffleStrategy(IStrategyRepository repository, IStrategyDispatch strategyDispatch, DefaultLogicFactory logicFactory) {
-        super(repository, strategyDispatch);
-        this.logicFactory = logicFactory;
+    public DefaultRaffleStrategy(IStrategyRepository repository, IStrategyDispatch strategyDispatch, DefaultChainFactory defaultChainFactory) {
+        super(repository, strategyDispatch, defaultChainFactory);
     }
 
     @Override
