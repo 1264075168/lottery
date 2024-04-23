@@ -34,7 +34,7 @@ public class StrategyArmoryDispatch implements IStrategyArmory,IStrategyDispatch
          //通过策略Id查询策略实体
         StrategyEntity strategyEntity = repository.queryStrategyEntityByStrategyId(strategyId);
         String ruleWeight = strategyEntity.getRuleWeight();
-        if (null == ruleWeight) return true;
+        if ("" == ruleWeight) return true;
 
         StrategyRuleEntity strategyRuleEntity = repository.queryStrategyRule(strategyId,ruleWeight);
         //如果在Strategy表里面查到有rule_weight,但是在Strategy_rule这个表里面却有rule_weight也就是null

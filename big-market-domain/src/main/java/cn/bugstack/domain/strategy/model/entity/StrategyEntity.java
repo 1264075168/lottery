@@ -35,9 +35,17 @@ public class StrategyEntity {
     //如果再策略表里的ruleModels字段有rule_weight
     public String getRuleWeight() {
         String[] ruleModels = this.ruleModels();
+        if (ruleModels == null) {
+            // 在 ruleModels 为空时，返回一个空字符串
+            return "";
+        }
         for (String ruleModel : ruleModels) {
-            if ("rule_weight".equals(ruleModel)) return ruleModel;
+            if ("rule_weight".equals(ruleModel)) {
+                return ruleModel;
+            }
         }
         return null;
     }
+
+
 }

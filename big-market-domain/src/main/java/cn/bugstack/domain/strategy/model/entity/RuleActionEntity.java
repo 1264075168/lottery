@@ -29,6 +29,7 @@ public class RuleActionEntity<T extends RuleActionEntity.RaffleEntity> {
     @Builder
     @AllArgsConstructor
     @NoArgsConstructor
+    //抽奖前
     static public class RaffleBeforeEntity extends RaffleEntity {
         /**
          * 策略ID
