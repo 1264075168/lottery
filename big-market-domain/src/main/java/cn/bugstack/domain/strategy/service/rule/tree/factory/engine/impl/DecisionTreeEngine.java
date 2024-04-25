@@ -28,8 +28,8 @@ public class DecisionTreeEngine implements IDecisionTreeEngine {
     }
 
     @Override //在这里过滤树节点 这里是决策的代核心码，
-    public DefaultTreeFactory.StrategyAwardData process(String userId, Long strategyId, Integer awardId) {
-        DefaultTreeFactory.StrategyAwardData  strategyAwardData = null;
+    public DefaultTreeFactory.StrategyAwardVO process(String userId, Long strategyId, Integer awardId) {
+        DefaultTreeFactory.StrategyAwardVO  strategyAwardData = null;
         //获取基础信息
         String nextNode = ruleTreeVO.getTreeRootRuleNode();//根节点
         Map<String, RuleTreeNodeVO> treeNodeMap = ruleTreeVO.getTreeNodeMap();//节点得Map信息

@@ -38,14 +38,14 @@ public class DefaultTreeFactory {
     @NoArgsConstructor
     public static class TreeActionEntity {
         private RuleLogicCheckTypeVO ruleLogicCheckType;//过滤的结果，是“放行”或者“拦截”
-        private StrategyAwardData strategyAwardData;//奖品信息
+        private StrategyAwardVO strategyAwardData;//奖品信息
     }
 
     @Data
     @Builder
     @AllArgsConstructor
     @NoArgsConstructor
-    public static class StrategyAwardData {
+    public static class StrategyAwardVO {
         /** 抽奖奖品ID - 内部流转使用 */
         private Integer awardId;
         /** 抽奖奖品规则 */

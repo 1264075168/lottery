@@ -1,619 +1,501 @@
-24-04-24.00:11:44.770 [main            ] INFO  RaffleStrategyTest01   - Starting RaffleStrategyTest01 using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 8340 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
-24-04-24.00:11:44.771 [main            ] INFO  RaffleStrategyTest01   - The following 1 profile is active: "dev"
-24-04-24.00:11:45.464 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-04-24.00:11:45.466 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-04-24.00:11:45.491 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
-24-04-24.00:11:47.038 [main            ] INFO  Version                - Redisson 3.23.4
-24-04-24.00:11:47.784 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.00:11:47.826 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.00:11:49.290 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-04-24.00:11:49.345 [main            ] INFO  RaffleStrategyTest01   - Started RaffleStrategyTest01 in 5.006 seconds (JVM running for 5.931)
-24-04-24.00:11:49.755 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-04-24.00:11:50.707 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-04-24.00:11:50.793 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
-24-04-24.00:12:00.097 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-04-24.00:12:00.350 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-04-24.00:12:03.612 [main            ] INFO  RaffleStrategyTest01   - Starting RaffleStrategyTest01 using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 45388 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
-24-04-24.00:12:03.613 [main            ] INFO  RaffleStrategyTest01   - The following 1 profile is active: "dev"
-24-04-24.00:12:04.373 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-04-24.00:12:04.375 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-04-24.00:12:04.398 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
-24-04-24.00:12:05.924 [main            ] INFO  Version                - Redisson 3.23.4
-24-04-24.00:12:06.668 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.00:12:06.684 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.00:12:08.085 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-04-24.00:12:08.137 [main            ] INFO  RaffleStrategyTest01   - Started RaffleStrategyTest01 in 4.963 seconds (JVM running for 5.848)
-24-04-24.00:12:13.091 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-04-24.00:12:16.501 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-04-24.00:12:17.471 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
-24-04-24.00:13:16.995 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m382ms123µs300ns).
-24-04-24.00:14:06.586 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49s590ms884µs600ns).
-24-04-24.00:15:55.696 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m18s491ms418µs600ns).
-24-04-24.00:16:50.907 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55s210ms782µs200ns).
-24-04-24.00:16:50.948 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-04-24.00:16:51.023 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-04-24.00:16:54.307 [main            ] INFO  RaffleStrategyTest01   - Starting RaffleStrategyTest01 using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 15148 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
-24-04-24.00:16:54.308 [main            ] INFO  RaffleStrategyTest01   - The following 1 profile is active: "dev"
-24-04-24.00:16:55.036 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-04-24.00:16:55.039 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-04-24.00:16:55.065 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
-24-04-24.00:16:56.660 [main            ] INFO  Version                - Redisson 3.23.4
-24-04-24.00:16:57.402 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.00:16:57.424 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.00:16:58.848 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-04-24.00:16:58.910 [main            ] INFO  RaffleStrategyTest01   - Started RaffleStrategyTest01 in 5.078 seconds (JVM running for 6.032)
-24-04-24.00:17:03.614 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-04-24.00:17:06.955 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-04-24.00:17:07.831 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
-24-04-24.00:18:42.096 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m35s32ms937µs800ns).
-24-04-24.00:26:13.420 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m31s324ms29µs200ns).
-24-04-24.00:26:13.435 [redisson-timer-4-1] ERROR PingConnectionHandler  - Unable to send PING command over channel: [id: 0x9c2f0dc2, L:/127.0.0.1:51603 - R:127.0.0.1/127.0.0.1:16379]
-org.redisson.client.RedisTimeoutException: Command execution timeout for command: (PING), params: [], Redis client: [addr=redis://127.0.0.1:16379]
-	at org.redisson.client.RedisConnection.lambda$async$0(RedisConnection.java:256)
-	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
-	at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
-	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
-	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
-	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:750)
-24-04-24.00:26:13.445 [redisson-timer-4-1] ERROR PingConnectionHandler  - Unable to send PING command over channel: [id: 0x65cd16d2, L:/127.0.0.1:51604 - R:127.0.0.1/127.0.0.1:16379]
-org.redisson.client.RedisTimeoutException: Command execution timeout for command: (PING), params: [], Redis client: [addr=redis://127.0.0.1:16379]
-	at org.redisson.client.RedisConnection.lambda$async$0(RedisConnection.java:256)
-	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
-	at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
-	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
-	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
-	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:750)
-24-04-24.00:26:13.477 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-04-24.00:26:15.557 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-04-24.00:26:21.346 [main            ] INFO  RaffleStrategyTest01   - Starting RaffleStrategyTest01 using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 47056 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
-24-04-24.00:26:21.347 [main            ] INFO  RaffleStrategyTest01   - The following 1 profile is active: "dev"
-24-04-24.00:26:21.987 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-04-24.00:26:21.989 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-04-24.00:26:22.011 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
-24-04-24.00:26:23.451 [main            ] INFO  Version                - Redisson 3.23.4
-24-04-24.00:26:24.152 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.00:26:24.167 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.00:26:25.312 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-04-24.00:26:25.353 [main            ] INFO  RaffleStrategyTest01   - Started RaffleStrategyTest01 in 4.333 seconds (JVM running for 5.03)
-24-04-24.00:26:25.791 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-04-24.00:26:26.776 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-04-24.00:26:26.845 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
-24-04-24.00:26:26.888 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-04-24.00:26:26.930 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-04-24.00:31:48.546 [main            ] INFO  RaffleStrategyTest01   - Starting RaffleStrategyTest01 using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 44052 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
-24-04-24.00:31:48.547 [main            ] INFO  RaffleStrategyTest01   - The following 1 profile is active: "dev"
-24-04-24.00:31:49.167 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-04-24.00:31:49.169 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-04-24.00:31:49.191 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
-24-04-24.00:31:50.600 [main            ] INFO  Version                - Redisson 3.23.4
-24-04-24.00:31:51.320 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.00:31:51.339 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.00:31:52.400 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-04-24.00:31:52.450 [main            ] INFO  RaffleStrategyTest01   - Started RaffleStrategyTest01 in 4.213 seconds (JVM running for 4.912)
-24-04-24.00:31:52.856 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-04-24.00:31:53.881 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-04-24.00:31:53.958 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
-24-04-24.00:31:54.006 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-04-24.00:31:54.046 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-04-24.00:33:52.435 [main            ] INFO  RaffleStrategyTest01   - Starting RaffleStrategyTest01 using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 47232 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
-24-04-24.00:33:52.436 [main            ] INFO  RaffleStrategyTest01   - The following 1 profile is active: "dev"
-24-04-24.00:33:53.032 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-04-24.00:33:53.034 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-04-24.00:33:53.056 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
-24-04-24.00:33:54.366 [main            ] INFO  Version                - Redisson 3.23.4
-24-04-24.00:33:55.118 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.00:33:55.140 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.00:33:56.250 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-04-24.00:33:56.303 [main            ] INFO  RaffleStrategyTest01   - Started RaffleStrategyTest01 in 4.179 seconds (JVM running for 4.849)
-24-04-24.00:33:56.736 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-04-24.00:33:57.814 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-04-24.00:33:57.889 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
-24-04-24.00:33:57.945 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-04-24.00:33:58.191 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-04-24.00:35:53.091 [main            ] INFO  RaffleStrategyTest01   - Starting RaffleStrategyTest01 using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 40632 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
-24-04-24.00:35:53.092 [main            ] INFO  RaffleStrategyTest01   - The following 1 profile is active: "dev"
-24-04-24.00:35:53.670 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-04-24.00:35:53.672 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-04-24.00:35:53.698 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
-24-04-24.00:35:55.130 [main            ] INFO  Version                - Redisson 3.23.4
-24-04-24.00:35:55.872 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.00:35:55.891 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.00:35:56.937 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-04-24.00:35:56.990 [main            ] INFO  RaffleStrategyTest01   - Started RaffleStrategyTest01 in 4.21 seconds (JVM running for 4.907)
-24-04-24.00:35:57.391 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-04-24.00:35:58.240 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-04-24.00:35:58.325 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
-24-04-24.00:35:58.377 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-04-24.00:35:58.415 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-04-24.00:36:48.965 [main            ] INFO  RaffleStrategyTest01   - Starting RaffleStrategyTest01 using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 46508 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
-24-04-24.00:36:48.966 [main            ] INFO  RaffleStrategyTest01   - The following 1 profile is active: "dev"
-24-04-24.00:36:49.674 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-04-24.00:36:49.676 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-04-24.00:36:49.704 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
-24-04-24.00:36:51.350 [main            ] INFO  Version                - Redisson 3.23.4
-24-04-24.00:36:52.162 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.00:36:52.181 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.00:36:53.578 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-04-24.00:36:53.632 [main            ] INFO  RaffleStrategyTest01   - Started RaffleStrategyTest01 in 5.043 seconds (JVM running for 5.895)
-24-04-24.00:37:32.097 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-04-24.00:37:35.468 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-04-24.00:37:40.595 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
-24-04-24.00:38:49.867 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-04-24.00:38:49.916 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-04-24.00:42:23.645 [main            ] INFO  RaffleStrategyTest01   - Starting RaffleStrategyTest01 using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 45528 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
-24-04-24.00:42:23.646 [main            ] INFO  RaffleStrategyTest01   - The following 1 profile is active: "dev"
-24-04-24.00:42:24.337 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-04-24.00:42:24.339 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-04-24.00:42:24.364 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
-24-04-24.00:42:25.862 [main            ] INFO  Version                - Redisson 3.23.4
-24-04-24.00:42:26.614 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.00:42:26.661 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.00:42:28.074 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-04-24.00:42:28.133 [main            ] INFO  RaffleStrategyTest01   - Started RaffleStrategyTest01 in 4.866 seconds (JVM running for 5.684)
-24-04-24.00:42:47.044 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-04-24.00:42:50.586 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-04-24.00:42:53.820 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
-24-04-24.00:44:25.120 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-04-24.00:44:25.133 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-04-24.00:45:02.221 [main            ] INFO  RaffleStrategyTest01   - Starting RaffleStrategyTest01 using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 18688 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
-24-04-24.00:45:02.222 [main            ] INFO  RaffleStrategyTest01   - The following 1 profile is active: "dev"
-24-04-24.00:45:02.826 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-04-24.00:45:02.828 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-04-24.00:45:02.850 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
-24-04-24.00:45:04.207 [main            ] INFO  Version                - Redisson 3.23.4
-24-04-24.00:45:04.914 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.00:45:04.932 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.00:45:05.970 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-04-24.00:45:06.025 [main            ] INFO  RaffleStrategyTest01   - Started RaffleStrategyTest01 in 4.115 seconds (JVM running for 4.8)
-24-04-24.00:45:06.453 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-04-24.00:45:07.441 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-04-24.00:45:07.513 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
-24-04-24.00:45:07.522 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
-24-04-24.00:45:07.539 [main            ] INFO  RuleBackListLogicFilter - 规则过滤-黑名单 userId:xiaofuge strategyId:100001 ruleModel:rule_blacklist
-24-04-24.00:45:07.560 [main            ] INFO  RuleWeightLogicFilter  - 规则过滤-权重范围 userId:xiaofuge strategyId:100001 ruleModel:rule_weight
-24-04-24.00:45:07.564 [main            ] INFO  DefaultRaffleStrategy  - 抽奖前规则过滤 userId: xiaofuge ruleModel: rule_weight code: 0001 info: 接管；后续的流程，受规则引擎执行结果影响
-24-04-24.00:45:07.711 [main            ] INFO  RaffleStrategyTest01   - 请求参数：{"strategyId":100001,"userId":"xiaofuge"}
-24-04-24.00:45:07.714 [main            ] INFO  RaffleStrategyTest01   - 测试结果：{"awardId":102}
-24-04-24.00:45:07.740 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-04-24.00:45:07.761 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-04-24.00:48:27.390 [main            ] INFO  RaffleStrategyTest01   - Starting RaffleStrategyTest01 using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 468 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
-24-04-24.00:48:27.391 [main            ] INFO  RaffleStrategyTest01   - The following 1 profile is active: "dev"
-24-04-24.00:48:27.978 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-04-24.00:48:27.980 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-04-24.00:48:28.001 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
-24-04-24.00:48:29.322 [main            ] INFO  Version                - Redisson 3.23.4
-24-04-24.00:48:30.052 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.00:48:30.073 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.00:48:31.118 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-04-24.00:48:31.169 [main            ] INFO  RaffleStrategyTest01   - Started RaffleStrategyTest01 in 4.089 seconds (JVM running for 4.734)
-24-04-24.00:48:31.580 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-04-24.00:48:32.410 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-04-24.00:48:32.501 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
-24-04-24.00:48:32.515 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
-24-04-24.00:48:32.570 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
-24-04-24.00:48:32.575 [main            ] INFO  RuleBackListLogicFilter - 规则过滤-黑名单 userId:user003 strategyId:100001 ruleModel:rule_blacklist
-24-04-24.00:48:32.699 [main            ] INFO  RaffleStrategyTest01   - 请求参数：{"strategyId":100001,"userId":"user003"}
-24-04-24.00:48:32.702 [main            ] INFO  RaffleStrategyTest01   - 测试结果：{"awardId":100}
-24-04-24.00:48:32.729 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-04-24.00:48:32.793 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-04-24.00:48:44.292 [main            ] INFO  RaffleStrategyTest01   - Starting RaffleStrategyTest01 using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 46180 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
-24-04-24.00:48:44.293 [main            ] INFO  RaffleStrategyTest01   - The following 1 profile is active: "dev"
-24-04-24.00:48:44.884 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-04-24.00:48:44.886 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-04-24.00:48:44.908 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
-24-04-24.00:48:46.304 [main            ] INFO  Version                - Redisson 3.23.4
-24-04-24.00:48:46.990 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.00:48:47.006 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.00:48:48.039 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-04-24.00:48:48.091 [main            ] INFO  RaffleStrategyTest01   - Started RaffleStrategyTest01 in 4.107 seconds (JVM running for 4.776)
-24-04-24.00:48:48.504 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-04-24.00:48:49.273 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-04-24.00:48:49.334 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
-24-04-24.00:48:49.344 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
-24-04-24.00:48:49.351 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
-24-04-24.00:48:49.357 [main            ] INFO  RuleBackListLogicFilter - 规则过滤-黑名单 userId:xiaofuge strategyId:100001 ruleModel:rule_blacklist
-24-04-24.00:48:49.378 [main            ] INFO  RuleWeightLogicFilter  - 规则过滤-权重范围 userId:xiaofuge strategyId:100001 ruleModel:rule_weight
-24-04-24.00:48:49.382 [main            ] INFO  DefaultRaffleStrategy  - 抽奖前规则过滤 userId: xiaofuge ruleModel: rule_weight code: 0001 info: 接管；后续的流程，受规则引擎执行结果影响
-24-04-24.00:48:49.517 [main            ] INFO  RaffleStrategyTest01   - 请求参数：{"strategyId":100001,"userId":"xiaofuge"}
-24-04-24.00:48:49.519 [main            ] INFO  RaffleStrategyTest01   - 测试结果：{"awardId":104}
-24-04-24.00:48:49.553 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-04-24.00:48:49.564 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-04-24.05:23:12.530 [main            ] INFO  LogicChainTest         - Starting LogicChainTest using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 52608 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
-24-04-24.05:23:12.531 [main            ] INFO  LogicChainTest         - The following 1 profile is active: "dev"
-24-04-24.05:23:13.191 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-04-24.05:23:13.193 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-04-24.05:23:13.218 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
-24-04-24.05:23:14.656 [main            ] INFO  Version                - Redisson 3.23.4
-24-04-24.05:23:15.407 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.05:23:15.429 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.05:23:16.488 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-04-24.05:23:16.542 [main            ] INFO  LogicChainTest         - Started LogicChainTest in 4.352 seconds (JVM running for 5.096)
-24-04-24.05:23:17.037 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-04-24.05:23:17.884 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-04-24.05:23:17.981 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:23:17.990 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:23:17.997 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:23:18.008 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: user001 strategyId: 100003 ruleModel: default awardId: 107
-24-04-24.05:23:18.008 [main            ] INFO  LogicChainTest         - 测试结果：107
-24-04-24.05:23:18.038 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-04-24.05:23:18.271 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-04-24.05:25:34.991 [main            ] INFO  LogicChainTest         - Starting LogicChainTest using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 54748 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
-24-04-24.05:25:34.992 [main            ] INFO  LogicChainTest         - The following 1 profile is active: "dev"
-24-04-24.05:25:35.683 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-04-24.05:25:35.693 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-04-24.05:25:35.716 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
-24-04-24.05:25:37.069 [main            ] INFO  Version                - Redisson 3.23.4
-24-04-24.05:25:37.812 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.05:25:37.832 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.05:25:38.865 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-04-24.05:25:38.909 [main            ] INFO  LogicChainTest         - Started LogicChainTest in 4.285 seconds (JVM running for 4.947)
-24-04-24.05:25:39.358 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-04-24.05:25:40.161 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-04-24.05:25:40.224 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:25:40.239 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:25:40.246 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:25:40.250 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight
-24-04-24.05:25:40.286 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重接管 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight awardId: 103
-24-04-24.05:25:40.286 [main            ] INFO  LogicChainTest         - 测试结果：103
-24-04-24.05:25:40.320 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-04-24.05:25:40.367 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-04-24.05:25:54.953 [main            ] INFO  LogicChainTest         - Starting LogicChainTest using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 53740 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
-24-04-24.05:25:54.954 [main            ] INFO  LogicChainTest         - The following 1 profile is active: "dev"
-24-04-24.05:25:55.637 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-04-24.05:25:55.638 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-04-24.05:25:55.660 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
-24-04-24.05:25:57.128 [main            ] INFO  Version                - Redisson 3.23.4
-24-04-24.05:25:57.815 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.05:25:57.829 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.05:25:58.850 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-04-24.05:25:58.888 [main            ] INFO  LogicChainTest         - Started LogicChainTest in 4.253 seconds (JVM running for 4.923)
-24-04-24.05:25:59.297 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-04-24.05:26:00.296 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-04-24.05:26:00.357 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:26:00.367 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:26:00.373 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:26:00.378 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: user001 strategyId: 100003 ruleModel: default awardId: 107
-24-04-24.05:26:00.378 [main            ] INFO  LogicChainTest         - 测试结果：107
-24-04-24.05:26:00.407 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-04-24.05:26:00.450 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-04-24.05:26:35.132 [main            ] INFO  LogicChainTest         - Starting LogicChainTest using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 29692 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
-24-04-24.05:26:35.133 [main            ] INFO  LogicChainTest         - The following 1 profile is active: "dev"
-24-04-24.05:26:35.747 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-04-24.05:26:35.749 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-04-24.05:26:35.771 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
-24-04-24.05:26:37.127 [main            ] INFO  Version                - Redisson 3.23.4
-24-04-24.05:26:37.870 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.05:26:37.888 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.05:26:38.935 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-04-24.05:26:38.982 [main            ] INFO  LogicChainTest         - Started LogicChainTest in 4.197 seconds (JVM running for 5.029)
-24-04-24.05:26:39.413 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-04-24.05:26:40.435 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-04-24.05:26:40.498 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:26:40.509 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:26:40.516 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:26:40.519 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight
-24-04-24.05:26:40.540 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重放行 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight
-24-04-24.05:26:40.540 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
-24-04-24.05:26:40.542 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单放行 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
-24-04-24.05:26:40.545 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100001 ruleModel: default awardId: 101
-24-04-24.05:26:40.545 [main            ] INFO  LogicChainTest         - 测试结果：101
-24-04-24.05:26:40.570 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-04-24.05:26:40.811 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-04-24.05:32:06.905 [main            ] INFO  LogicChainTest         - Starting LogicChainTest using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 53992 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
-24-04-24.05:32:06.906 [main            ] INFO  LogicChainTest         - The following 1 profile is active: "dev"
-24-04-24.05:32:07.519 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-04-24.05:32:07.522 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-04-24.05:32:07.546 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
-24-04-24.05:32:08.907 [main            ] INFO  Version                - Redisson 3.23.4
-24-04-24.05:32:09.607 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.05:32:09.622 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.05:32:10.647 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-04-24.05:32:10.695 [main            ] INFO  LogicChainTest         - Started LogicChainTest in 4.094 seconds (JVM running for 4.772)
-24-04-24.05:32:10.972 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-04-24.05:32:12.063 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-04-24.05:32:12.310 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:32:12.329 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:32:12.346 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:32:12.357 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: user001 strategyId: 100003 ruleModel: default awardId: 107
-24-04-24.05:32:12.357 [main            ] INFO  LogicChainTest         - 测试结果：107
-24-04-24.05:32:12.382 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-04-24.05:32:12.616 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-04-24.05:33:28.265 [main            ] INFO  LogicChainTest         - Starting LogicChainTest using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 17176 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
-24-04-24.05:33:28.266 [main            ] INFO  LogicChainTest         - The following 1 profile is active: "dev"
-24-04-24.05:33:28.885 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-04-24.05:33:28.887 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-04-24.05:33:28.912 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
-24-04-24.05:33:30.279 [main            ] INFO  Version                - Redisson 3.23.4
-24-04-24.05:33:31.005 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.05:33:31.028 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.05:33:32.075 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-04-24.05:33:32.120 [main            ] INFO  LogicChainTest         - Started LogicChainTest in 4.185 seconds (JVM running for 5.041)
-24-04-24.05:33:32.560 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-04-24.05:33:33.425 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-04-24.05:33:33.492 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:33:33.498 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:33:33.503 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:33:33.506 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
-24-04-24.05:33:33.525 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单放行 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
-24-04-24.05:33:33.525 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight
-24-04-24.05:33:33.531 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重接管 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight awardId: 103
-24-04-24.05:33:33.532 [main            ] INFO  LogicChainTest         - 测试结果：103
-24-04-24.05:33:33.566 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-04-24.05:33:33.602 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-04-24.05:33:44.600 [main            ] INFO  LogicChainTest         - Starting LogicChainTest using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 54528 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
-24-04-24.05:33:44.601 [main            ] INFO  LogicChainTest         - The following 1 profile is active: "dev"
-24-04-24.05:33:45.188 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-04-24.05:33:45.191 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-04-24.05:33:45.211 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
-24-04-24.05:33:46.538 [main            ] INFO  Version                - Redisson 3.23.4
-24-04-24.05:33:47.254 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.05:33:47.270 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.05:33:48.324 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-04-24.05:33:48.379 [main            ] INFO  LogicChainTest         - Started LogicChainTest in 4.104 seconds (JVM running for 4.806)
-24-04-24.05:33:48.810 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-04-24.05:33:49.629 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-04-24.05:33:49.690 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:33:49.702 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:33:49.710 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:33:49.712 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
-24-04-24.05:33:49.732 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单放行 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
-24-04-24.05:33:49.732 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight
-24-04-24.05:33:49.735 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重放行 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight
-24-04-24.05:33:49.739 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100001 ruleModel: default awardId: 102
-24-04-24.05:33:49.739 [main            ] INFO  LogicChainTest         - 测试结果：102
-24-04-24.05:33:49.773 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-04-24.05:33:49.802 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-04-24.05:34:29.624 [main            ] INFO  RaffleStrategyTest01   - Starting RaffleStrategyTest01 using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 55180 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
-24-04-24.05:34:29.625 [main            ] INFO  RaffleStrategyTest01   - The following 1 profile is active: "dev"
-24-04-24.05:34:30.277 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-04-24.05:34:30.280 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-04-24.05:34:30.305 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
-24-04-24.05:34:31.663 [main            ] INFO  Version                - Redisson 3.23.4
-24-04-24.05:34:32.401 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.05:34:32.417 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.05:34:33.449 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-04-24.05:34:33.497 [main            ] INFO  RaffleStrategyTest01   - Started RaffleStrategyTest01 in 4.194 seconds (JVM running for 4.896)
-24-04-24.05:34:33.897 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-04-24.05:34:34.711 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-04-24.05:34:34.782 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
-24-04-24.05:34:34.792 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
-24-04-24.05:34:34.798 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
-24-04-24.05:34:34.803 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单开始 userId: user003 strategyId: 100001 ruleModel: rule_blacklist
-24-04-24.05:34:34.823 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单接管 userId: user003 strategyId: 100001 ruleModel: rule_blacklist award: 101
-24-04-24.05:34:34.870 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-04-24.05:34:34.906 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-04-24.05:35:25.151 [main            ] INFO  LogicChainTest         - Starting LogicChainTest using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 44700 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
-24-04-24.05:35:25.151 [main            ] INFO  LogicChainTest         - The following 1 profile is active: "dev"
-24-04-24.05:35:25.756 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-04-24.05:35:25.758 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-04-24.05:35:25.779 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
-24-04-24.05:35:27.138 [main            ] INFO  Version                - Redisson 3.23.4
-24-04-24.05:35:27.851 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.05:35:27.890 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.05:35:28.928 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-04-24.05:35:28.980 [main            ] INFO  LogicChainTest         - Started LogicChainTest in 4.151 seconds (JVM running for 4.842)
-24-04-24.05:35:29.399 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-04-24.05:35:30.462 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-04-24.05:35:30.530 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:35:30.546 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:35:30.554 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:35:30.561 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: user001 strategyId: 100003 ruleModel: default awardId: 107
-24-04-24.05:35:30.561 [main            ] INFO  LogicChainTest         - 测试结果：107
-24-04-24.05:35:30.593 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-04-24.05:35:30.848 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-04-24.05:43:11.523 [main            ] INFO  LogicChainTest         - Starting LogicChainTest using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 53740 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
-24-04-24.05:43:11.524 [main            ] INFO  LogicChainTest         - The following 1 profile is active: "dev"
-24-04-24.05:43:12.122 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-04-24.05:43:12.124 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-04-24.05:43:12.146 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
-24-04-24.05:43:13.490 [main            ] INFO  Version                - Redisson 3.23.4
-24-04-24.05:43:14.259 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.05:43:14.277 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.05:43:15.333 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-04-24.05:43:15.381 [main            ] INFO  LogicChainTest         - Started LogicChainTest in 4.175 seconds (JVM running for 4.837)
-24-04-24.05:43:15.815 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-04-24.05:43:16.604 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-04-24.05:43:16.663 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:43:16.676 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:43:16.685 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:43:16.689 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
-24-04-24.05:43:16.707 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单放行 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
-24-04-24.05:43:16.707 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight
-24-04-24.05:43:16.714 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重接管 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight awardId: 103
-24-04-24.05:43:16.715 [main            ] INFO  LogicChainTest         - 测试结果：103
-24-04-24.05:43:16.740 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-04-24.05:43:16.760 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-04-24.05:43:35.751 [main            ] INFO  LogicChainTest         - Starting LogicChainTest using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 54616 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
-24-04-24.05:43:35.752 [main            ] INFO  LogicChainTest         - The following 1 profile is active: "dev"
-24-04-24.05:43:36.326 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-04-24.05:43:36.327 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-04-24.05:43:36.349 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
-24-04-24.05:43:37.731 [main            ] INFO  Version                - Redisson 3.23.4
-24-04-24.05:43:38.431 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.05:43:38.454 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.05:43:39.485 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-04-24.05:43:39.527 [main            ] INFO  LogicChainTest         - Started LogicChainTest in 4.09 seconds (JVM running for 4.75)
-24-04-24.05:43:39.936 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-04-24.05:43:40.749 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-04-24.05:43:40.811 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:43:40.820 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:43:40.828 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:43:40.834 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: user001 strategyId: 100003 ruleModel: default awardId: 108
-24-04-24.05:43:40.834 [main            ] INFO  LogicChainTest         - 测试结果：108
-24-04-24.05:43:40.895 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-04-24.05:43:40.932 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-04-24.05:45:54.039 [main            ] INFO  LogicChainTest         - Starting LogicChainTest using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 39344 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
-24-04-24.05:45:54.040 [main            ] INFO  LogicChainTest         - The following 1 profile is active: "dev"
-24-04-24.05:45:54.655 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-04-24.05:45:54.657 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-04-24.05:45:54.678 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
-24-04-24.05:45:56.027 [main            ] INFO  Version                - Redisson 3.23.4
-24-04-24.05:45:56.699 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.05:45:56.718 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.05:45:57.737 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-04-24.05:45:57.783 [main            ] INFO  LogicChainTest         - Started LogicChainTest in 4.054 seconds (JVM running for 4.846)
-24-04-24.05:45:58.218 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-04-24.05:45:58.979 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-04-24.05:45:59.049 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:45:59.058 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:45:59.067 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:45:59.076 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: user001 strategyId: 100003 ruleModel: default awardId: 107
-24-04-24.05:45:59.076 [main            ] INFO  LogicChainTest         - 测试结果：107
-24-04-24.05:45:59.106 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-04-24.05:45:59.368 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-04-24.05:47:04.089 [main            ] INFO  LogicChainTest         - Starting LogicChainTest using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 10772 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
-24-04-24.05:47:04.090 [main            ] INFO  LogicChainTest         - The following 1 profile is active: "dev"
-24-04-24.05:47:04.808 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-04-24.05:47:04.811 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-04-24.05:47:04.834 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
-24-04-24.05:47:06.383 [main            ] INFO  Version                - Redisson 3.23.4
-24-04-24.05:47:07.103 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.05:47:07.131 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.05:47:08.497 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-04-24.05:47:08.545 [main            ] INFO  LogicChainTest         - Started LogicChainTest in 4.844 seconds (JVM running for 5.871)
-24-04-24.05:47:08.928 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-04-24.05:47:09.792 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-04-24.05:47:09.860 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:47:09.866 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:47:14.244 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:49:04.776 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m50s554ms215µs200ns).
-24-04-24.05:50:52.788 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m15s96ms169µs700ns).
-24-04-24.05:51:26.052 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: user001 strategyId: 100003 ruleModel: default awardId: 107
-24-04-24.05:51:26.052 [main            ] INFO  LogicChainTest         - 测试结果：107
-24-04-24.05:51:26.087 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-04-24.05:51:26.143 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-04-24.05:56:07.185 [main            ] INFO  LogicChainTest         - Starting LogicChainTest using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 55292 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
-24-04-24.05:56:07.186 [main            ] INFO  LogicChainTest         - The following 1 profile is active: "dev"
-24-04-24.05:56:07.782 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-04-24.05:56:07.785 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-04-24.05:56:07.807 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
-24-04-24.05:56:09.150 [main            ] INFO  Version                - Redisson 3.23.4
-24-04-24.05:56:09.858 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.05:56:09.875 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.05:56:10.888 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-04-24.05:56:10.938 [main            ] INFO  LogicChainTest         - Started LogicChainTest in 4.065 seconds (JVM running for 4.735)
-24-04-24.05:56:11.378 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-04-24.05:56:12.151 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-04-24.05:56:12.219 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:56:12.231 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:56:12.241 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:56:12.249 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: user001 strategyId: 100003 ruleModel: default awardId: 107
-24-04-24.05:56:12.250 [main            ] INFO  LogicChainTest         - 测试结果：107
-24-04-24.05:56:12.309 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-04-24.05:56:12.567 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-04-24.05:57:26.572 [main            ] INFO  LogicChainTest         - Starting LogicChainTest using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 53536 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
-24-04-24.05:57:26.573 [main            ] INFO  LogicChainTest         - The following 1 profile is active: "dev"
-24-04-24.05:57:27.252 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-04-24.05:57:27.254 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-04-24.05:57:27.277 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
-24-04-24.05:57:28.774 [main            ] INFO  Version                - Redisson 3.23.4
-24-04-24.05:57:29.525 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.05:57:29.542 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.05:57:30.876 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-04-24.05:57:30.924 [main            ] INFO  LogicChainTest         - Started LogicChainTest in 4.734 seconds (JVM running for 5.583)
-24-04-24.05:57:31.296 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-04-24.05:57:32.125 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-04-24.05:57:32.195 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:57:32.200 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:57:38.581 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:57:45.889 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
-24-04-24.05:57:45.912 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单放行 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
-24-04-24.05:57:45.912 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight
-24-04-24.05:57:45.920 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重接管 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight awardId: 105
-24-04-24.05:57:45.920 [main            ] INFO  LogicChainTest         - 测试结果：105
-24-04-24.05:57:45.941 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-04-24.05:57:45.962 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-04-24.05:57:49.301 [main            ] INFO  LogicChainTest         - Starting LogicChainTest using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 6820 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
-24-04-24.05:57:49.302 [main            ] INFO  LogicChainTest         - The following 1 profile is active: "dev"
-24-04-24.05:57:49.979 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-04-24.05:57:49.981 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-04-24.05:57:50.006 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
-24-04-24.05:57:51.527 [main            ] INFO  Version                - Redisson 3.23.4
-24-04-24.05:57:52.241 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.05:57:52.253 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.05:57:53.581 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-04-24.05:57:53.638 [main            ] INFO  LogicChainTest         - Started LogicChainTest in 4.696 seconds (JVM running for 5.521)
-24-04-24.05:57:54.019 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-04-24.05:57:54.813 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-04-24.05:57:54.875 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:57:54.882 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:59:30.188 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.05:59:40.125 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
-24-04-24.05:59:40.173 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-04-24.05:59:40.174 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单放行 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
-24-04-24.05:59:40.175 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight
-24-04-24.05:59:40.186 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-04-24.06:01:01.709 [main            ] INFO  LogicChainTest         - Starting LogicChainTest using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 48868 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
-24-04-24.06:01:01.710 [main            ] INFO  LogicChainTest         - The following 1 profile is active: "dev"
-24-04-24.06:01:02.417 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-04-24.06:01:02.420 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-04-24.06:01:02.459 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
-24-04-24.06:01:03.988 [main            ] INFO  Version                - Redisson 3.23.4
-24-04-24.06:01:04.742 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.06:01:04.765 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.06:01:06.080 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-04-24.06:01:06.132 [main            ] INFO  LogicChainTest         - Started LogicChainTest in 4.808 seconds (JVM running for 5.832)
-24-04-24.06:01:06.509 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-04-24.06:01:07.372 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-04-24.06:01:07.453 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.06:01:07.461 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.06:02:02.701 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m25s328ms992µs400ns).
-24-04-24.06:02:51.848 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49s147ms372µs500ns).
-24-04-24.06:03:58.950 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m7s102ms54µs200ns).
-24-04-24.06:04:17.428 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.06:04:17.436 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: user001 strategyId: 100003 ruleModel: default awardId: 107
-24-04-24.06:04:17.436 [main            ] INFO  LogicChainTest         - 测试结果：107
-24-04-24.06:04:17.466 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-04-24.06:04:19.695 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-04-24.06:08:21.394 [main            ] INFO  LogicChainTest         - Starting LogicChainTest using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 54560 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
-24-04-24.06:08:21.395 [main            ] INFO  LogicChainTest         - The following 1 profile is active: "dev"
-24-04-24.06:08:22.061 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-04-24.06:08:22.064 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-04-24.06:08:22.091 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
-24-04-24.06:08:23.477 [main            ] INFO  Version                - Redisson 3.23.4
-24-04-24.06:08:24.195 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.06:08:24.214 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.06:08:25.284 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-04-24.06:08:25.326 [main            ] INFO  LogicChainTest         - Started LogicChainTest in 4.245 seconds (JVM running for 4.983)
-24-04-24.06:08:25.773 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-24-04-24.06:08:26.623 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-24-04-24.06:08:26.710 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.06:08:26.720 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.06:08:26.727 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-04-24.06:08:26.731 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单开始 userId: user001 strategyId: 100001 ruleModel: rule_blacklist
-24-04-24.06:08:26.752 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单接管 userId: user001 strategyId: 100001 ruleModel: rule_blacklist award: 101
-24-04-24.06:08:26.753 [main            ] INFO  LogicChainTest         - 测试结果：101
-24-04-24.06:08:26.786 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-24-04-24.06:08:26.837 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-24-04-24.08:51:31.473 [main            ] INFO  LogicTreeTest          - Starting LogicTreeTest using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 59800 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
-24-04-24.08:51:31.474 [main            ] INFO  LogicTreeTest          - The following 1 profile is active: "dev"
-24-04-24.08:51:32.151 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-04-24.08:51:32.154 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-04-24.08:51:32.181 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
-24-04-24.08:51:33.698 [main            ] INFO  Version                - Redisson 3.23.4
-24-04-24.08:51:34.485 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.08:51:34.505 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.08:51:35.584 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-04-24.08:51:35.642 [main            ] INFO  LogicTreeTest          - Started LogicTreeTest in 4.51 seconds (JVM running for 5.395)
-24-04-24.08:51:35.931 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_lock code:0000
-24-04-24.08:51:35.932 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_stock code:0001
-24-04-24.08:51:35.933 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_luck_award code:0001
-24-04-24.08:51:36.049 [main            ] INFO  LogicTreeTest          - 测试结果：{"awardId":101,"awardRuleValue":"1,100"}
-24-04-24.08:55:10.994 [main            ] INFO  LogicTreeTest          - Starting LogicTreeTest using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 55808 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
-24-04-24.08:55:10.995 [main            ] INFO  LogicTreeTest          - The following 1 profile is active: "dev"
-24-04-24.08:55:11.773 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-04-24.08:55:11.776 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-04-24.08:55:11.807 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
-24-04-24.08:55:13.387 [main            ] INFO  Version                - Redisson 3.23.4
-24-04-24.08:55:14.107 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.08:55:14.130 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
-24-04-24.08:55:15.284 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-04-24.08:55:15.330 [main            ] INFO  LogicTreeTest          - Started LogicTreeTest in 4.73 seconds (JVM running for 5.657)
-24-04-24.08:55:15.611 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_lock code:0000
-24-04-24.08:55:15.612 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_stock code:0001
-24-04-24.08:55:15.613 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_luck_award code:0001
-24-04-24.08:55:15.721 [main            ] INFO  LogicTreeTest          - 测试结果：{"awardId":101,"awardRuleValue":"1,100"}
+24-04-25.00:33:23.766 [main            ] INFO  RaffleStrategyTest01   - Starting RaffleStrategyTest01 using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 37712 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
+24-04-25.00:33:23.767 [main            ] INFO  RaffleStrategyTest01   - The following 1 profile is active: "dev"
+24-04-25.00:33:24.659 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-04-25.00:33:24.662 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-04-25.00:33:24.705 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+24-04-25.00:33:27.042 [main            ] INFO  Version                - Redisson 3.23.4
+24-04-25.00:33:27.915 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.00:33:27.946 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.00:33:29.575 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-04-25.00:33:29.693 [main            ] INFO  RaffleStrategyTest01   - Started RaffleStrategyTest01 in 6.36 seconds (JVM running for 7.271)
+24-04-25.00:33:30.283 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-04-25.00:33:31.268 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-04-25.00:33:31.341 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
+24-04-25.00:33:31.363 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
+24-04-25.00:33:31.374 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
+24-04-25.00:33:31.385 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100006 ruleModel: rule_default awardId: 102
+24-04-25.00:33:31.387 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100006 102 rule_default
+24-04-25.00:33:31.401 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_lock code:0000
+24-04-25.00:33:31.402 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_stock code:0001
+24-04-25.00:33:31.404 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_luck_award code:0001
+24-04-25.00:33:31.404 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 xiaofuge 100006 101 1,100
+24-04-25.00:33:31.611 [main            ] INFO  RaffleStrategyTest01   - 请求参数：{"strategyId":100006,"userId":"xiaofuge"}
+24-04-25.00:33:31.615 [main            ] INFO  RaffleStrategyTest01   - 测试结果：{"awardConfig":"1,100","awardId":101}
+24-04-25.00:33:31.667 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-04-25.00:33:31.818 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-04-25.00:34:06.530 [main            ] INFO  RaffleStrategyTest01   - Starting RaffleStrategyTest01 using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 58052 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
+24-04-25.00:34:06.531 [main            ] INFO  RaffleStrategyTest01   - The following 1 profile is active: "dev"
+24-04-25.00:34:07.485 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-04-25.00:34:07.491 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-04-25.00:34:07.535 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+24-04-25.00:34:09.523 [main            ] INFO  Version                - Redisson 3.23.4
+24-04-25.00:34:10.391 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.00:34:10.420 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.00:34:12.083 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-04-25.00:34:12.203 [main            ] INFO  RaffleStrategyTest01   - Started RaffleStrategyTest01 in 6.111 seconds (JVM running for 7.391)
+24-04-25.00:34:12.703 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-04-25.00:34:13.844 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-04-25.00:34:13.912 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
+24-04-25.00:34:13.921 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
+24-04-25.00:34:13.931 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
+24-04-25.00:34:13.936 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单开始 userId: user003 strategyId: 100001 ruleModel: rule_blacklist
+24-04-25.00:34:13.973 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单接管 userId: user003 strategyId: 100001 ruleModel: rule_blacklist award: 100
+24-04-25.00:34:13.973 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 user003 100001 100 rule_blacklist
+24-04-25.00:34:14.136 [main            ] INFO  RaffleStrategyTest01   - 请求参数：{"strategyId":100001,"userId":"user003"}
+24-04-25.00:34:14.142 [main            ] INFO  RaffleStrategyTest01   - 测试结果：{"awardId":100}
+24-04-25.00:34:14.194 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-04-25.00:34:14.228 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-04-25.00:34:23.333 [main            ] INFO  RaffleStrategyTest01   - Starting RaffleStrategyTest01 using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 42304 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
+24-04-25.00:34:23.333 [main            ] INFO  RaffleStrategyTest01   - The following 1 profile is active: "dev"
+24-04-25.00:34:24.164 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-04-25.00:34:24.167 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-04-25.00:34:24.199 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+24-04-25.00:34:26.123 [main            ] INFO  Version                - Redisson 3.23.4
+24-04-25.00:34:27.046 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.00:34:27.065 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.00:34:29.088 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-04-25.00:34:29.216 [main            ] INFO  RaffleStrategyTest01   - Started RaffleStrategyTest01 in 6.304 seconds (JVM running for 7.146)
+24-04-25.00:34:29.707 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-04-25.00:34:30.574 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-04-25.00:34:30.638 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
+24-04-25.00:34:30.651 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
+24-04-25.00:34:30.662 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
+24-04-25.00:34:30.670 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
+24-04-25.00:34:30.697 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单放行 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
+24-04-25.00:34:30.697 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight
+24-04-25.00:34:30.701 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重放行 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight
+24-04-25.00:34:30.703 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100001 ruleModel: rule_default awardId: 105
+24-04-25.00:34:30.704 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100001 105 rule_default
+24-04-25.00:34:30.774 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-04-25.00:34:30.951 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-04-25.00:36:08.952 [main            ] INFO  RaffleStrategyTest01   - Starting RaffleStrategyTest01 using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 26116 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
+24-04-25.00:36:08.953 [main            ] INFO  RaffleStrategyTest01   - The following 1 profile is active: "dev"
+24-04-25.00:36:09.757 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-04-25.00:36:09.761 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-04-25.00:36:09.801 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+24-04-25.00:36:11.602 [main            ] INFO  Version                - Redisson 3.23.4
+24-04-25.00:36:12.499 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.00:36:12.527 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.00:36:14.225 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-04-25.00:36:14.380 [main            ] INFO  RaffleStrategyTest01   - Started RaffleStrategyTest01 in 5.829 seconds (JVM running for 7.007)
+24-04-25.00:36:14.942 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-04-25.00:36:15.845 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-04-25.00:36:15.930 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
+24-04-25.00:36:15.939 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
+24-04-25.00:36:15.947 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
+24-04-25.00:36:15.953 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
+24-04-25.00:36:15.979 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单放行 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
+24-04-25.00:36:15.979 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight
+24-04-25.00:36:15.983 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重放行 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight
+24-04-25.00:36:15.986 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100001 ruleModel: rule_default awardId: 101
+24-04-25.00:36:15.987 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100001 101 rule_default
+24-04-25.00:36:16.042 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-04-25.00:36:16.088 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-04-25.00:37:09.100 [main            ] INFO  RaffleStrategyTest01   - Starting RaffleStrategyTest01 using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 34864 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
+24-04-25.00:37:09.101 [main            ] INFO  RaffleStrategyTest01   - The following 1 profile is active: "dev"
+24-04-25.00:37:10.023 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-04-25.00:37:10.025 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-04-25.00:37:10.070 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 0 Redis repository interfaces.
+24-04-25.00:37:12.664 [main            ] INFO  Version                - Redisson 3.23.4
+24-04-25.00:37:13.569 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.00:37:13.594 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.00:37:15.747 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-04-25.00:37:15.840 [main            ] INFO  RaffleStrategyTest01   - Started RaffleStrategyTest01 in 7.249 seconds (JVM running for 8.773)
+24-04-25.00:37:16.417 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-04-25.00:37:17.656 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-04-25.00:37:17.732 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
+24-04-25.00:37:17.762 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
+24-04-25.00:37:17.776 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
+24-04-25.00:37:17.791 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
+24-04-25.00:37:17.842 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单放行 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
+24-04-25.00:37:17.843 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight
+24-04-25.00:37:17.846 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重放行 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight
+24-04-25.00:37:17.849 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100001 ruleModel: rule_default awardId: 102
+24-04-25.00:37:17.850 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100001 102 rule_default
+24-04-25.00:37:17.944 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-04-25.00:37:18.087 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-04-25.00:37:27.005 [main            ] INFO  RaffleStrategyTest01   - Starting RaffleStrategyTest01 using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 13108 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
+24-04-25.00:37:27.006 [main            ] INFO  RaffleStrategyTest01   - The following 1 profile is active: "dev"
+24-04-25.00:37:28.106 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-04-25.00:37:28.109 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-04-25.00:37:28.150 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+24-04-25.00:37:30.620 [main            ] INFO  Version                - Redisson 3.23.4
+24-04-25.00:37:31.603 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.00:37:31.637 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.00:37:33.935 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-04-25.00:37:34.047 [main            ] INFO  RaffleStrategyTest01   - Started RaffleStrategyTest01 in 7.571 seconds (JVM running for 8.699)
+24-04-25.00:37:34.586 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-04-25.00:37:35.807 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-04-25.00:37:35.881 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
+24-04-25.00:37:35.898 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
+24-04-25.00:37:35.907 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
+24-04-25.00:37:45.597 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
+24-04-25.00:37:45.687 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单放行 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
+24-04-25.00:37:45.687 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight
+24-04-25.00:37:45.692 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重放行 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight
+24-04-25.00:37:45.696 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100001 ruleModel: rule_default awardId: 104
+24-04-25.00:37:46.161 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100001 104 rule_default
+24-04-25.00:38:12.295 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-04-25.00:38:12.535 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-04-25.00:38:16.286 [main            ] INFO  RaffleStrategyTest01   - Starting RaffleStrategyTest01 using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 31336 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
+24-04-25.00:38:16.288 [main            ] INFO  RaffleStrategyTest01   - The following 1 profile is active: "dev"
+24-04-25.00:38:17.385 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-04-25.00:38:17.390 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-04-25.00:38:17.456 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 0 Redis repository interfaces.
+24-04-25.00:38:20.024 [main            ] INFO  Version                - Redisson 3.23.4
+24-04-25.00:38:20.940 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.00:38:20.971 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.00:38:23.231 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-04-25.00:38:23.354 [main            ] INFO  RaffleStrategyTest01   - Started RaffleStrategyTest01 in 7.631 seconds (JVM running for 8.689)
+24-04-25.00:38:23.850 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-04-25.00:38:25.117 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-04-25.00:38:25.200 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
+24-04-25.00:38:25.230 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
+24-04-25.00:38:25.245 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
+24-04-25.00:38:25.259 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
+24-04-25.00:38:25.307 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单放行 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
+24-04-25.00:38:25.307 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight
+24-04-25.00:38:25.310 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重放行 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight
+24-04-25.00:38:25.313 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100001 ruleModel: rule_default awardId: 101
+24-04-25.00:38:25.314 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100001 101 rule_default
+24-04-25.00:40:07.322 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-04-25.00:40:07.329 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-04-25.00:40:11.115 [main            ] INFO  RaffleStrategyTest01   - Starting RaffleStrategyTest01 using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 19540 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
+24-04-25.00:40:11.117 [main            ] INFO  RaffleStrategyTest01   - The following 1 profile is active: "dev"
+24-04-25.00:40:12.026 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-04-25.00:40:12.029 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-04-25.00:40:12.077 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29 ms. Found 0 Redis repository interfaces.
+24-04-25.00:40:14.417 [main            ] INFO  Version                - Redisson 3.23.4
+24-04-25.00:40:15.315 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.00:40:15.342 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.00:40:17.767 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-04-25.00:40:17.841 [main            ] INFO  RaffleStrategyTest01   - Started RaffleStrategyTest01 in 7.234 seconds (JVM running for 8.326)
+24-04-25.00:40:18.381 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-04-25.00:40:19.648 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-04-25.00:40:19.744 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
+24-04-25.00:40:19.752 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
+24-04-25.00:40:19.760 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
+24-04-25.00:40:19.770 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
+24-04-25.00:40:19.808 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单放行 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
+24-04-25.00:40:19.809 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight
+24-04-25.00:40:19.811 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重放行 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight
+24-04-25.00:40:19.815 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100001 ruleModel: rule_default awardId: 105
+24-04-25.00:40:19.816 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100001 105 rule_default
+24-04-25.00:41:51.510 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52s260ms954µs400ns).
+24-04-25.00:42:00.829 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-04-25.00:42:02.850 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-04-25.00:42:20.418 [main            ] INFO  RaffleStrategyTest01   - Starting RaffleStrategyTest01 using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 32476 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
+24-04-25.00:42:20.420 [main            ] INFO  RaffleStrategyTest01   - The following 1 profile is active: "dev"
+24-04-25.00:42:21.503 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-04-25.00:42:21.507 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-04-25.00:42:21.578 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41 ms. Found 0 Redis repository interfaces.
+24-04-25.00:42:24.056 [main            ] INFO  Version                - Redisson 3.23.4
+24-04-25.00:42:25.118 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.00:42:25.151 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.00:42:27.451 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-04-25.00:42:27.556 [main            ] INFO  RaffleStrategyTest01   - Started RaffleStrategyTest01 in 7.7 seconds (JVM running for 8.857)
+24-04-25.00:42:28.067 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-04-25.00:42:29.158 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-04-25.00:42:29.255 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
+24-04-25.00:42:29.271 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
+24-04-25.00:42:29.284 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
+24-04-25.00:42:29.303 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
+24-04-25.00:42:29.361 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单放行 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
+24-04-25.00:42:29.361 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight
+24-04-25.00:42:29.366 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重放行 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight
+24-04-25.00:42:29.371 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100001 ruleModel: rule_default awardId: 101
+24-04-25.00:42:29.376 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100001 101 rule_default
+24-04-25.00:43:36.732 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m7s466ms671µs800ns).
+24-04-25.00:44:31.799 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55s67ms290µs).
+24-04-25.00:46:19.413 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-04-25.00:46:19.674 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-04-25.00:46:29.131 [main            ] INFO  RaffleStrategyTest01   - Starting RaffleStrategyTest01 using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 56276 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
+24-04-25.00:46:29.132 [main            ] INFO  RaffleStrategyTest01   - The following 1 profile is active: "dev"
+24-04-25.00:46:30.084 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-04-25.00:46:30.088 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-04-25.00:46:30.136 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 0 Redis repository interfaces.
+24-04-25.00:46:32.342 [main            ] INFO  Version                - Redisson 3.23.4
+24-04-25.00:46:33.267 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.00:46:33.295 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.00:46:35.397 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-04-25.00:46:35.502 [main            ] INFO  RaffleStrategyTest01   - Started RaffleStrategyTest01 in 6.872 seconds (JVM running for 7.964)
+24-04-25.00:46:36.060 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-04-25.00:46:37.228 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-04-25.00:46:37.331 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
+24-04-25.00:46:37.346 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
+24-04-25.00:46:37.360 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
+24-04-25.00:46:37.380 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
+24-04-25.00:46:37.428 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单放行 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
+24-04-25.00:46:37.428 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight
+24-04-25.00:46:37.432 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重放行 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight
+24-04-25.00:46:37.436 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100001 ruleModel: rule_default awardId: 102
+24-04-25.00:46:37.436 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100001 102 rule_default
+24-04-25.00:48:43.736 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-04-25.00:48:43.751 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-04-25.00:49:21.662 [main            ] INFO  RaffleStrategyTest01   - Starting RaffleStrategyTest01 using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 58356 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
+24-04-25.00:49:21.663 [main            ] INFO  RaffleStrategyTest01   - The following 1 profile is active: "dev"
+24-04-25.00:49:22.526 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-04-25.00:49:22.530 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-04-25.00:49:22.576 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 0 Redis repository interfaces.
+24-04-25.00:49:24.441 [main            ] INFO  Version                - Redisson 3.23.4
+24-04-25.00:49:25.267 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.00:49:25.292 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.00:49:27.193 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-04-25.00:49:27.302 [main            ] INFO  RaffleStrategyTest01   - Started RaffleStrategyTest01 in 6.173 seconds (JVM running for 7.125)
+24-04-25.00:49:27.959 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-04-25.00:49:29.002 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-04-25.00:49:29.115 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
+24-04-25.00:49:29.129 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
+24-04-25.00:49:29.144 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
+24-04-25.00:49:29.150 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
+24-04-25.00:49:29.170 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单放行 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
+24-04-25.00:49:29.170 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight
+24-04-25.00:49:29.173 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重放行 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight
+24-04-25.00:49:29.176 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100001 ruleModel: rule_default awardId: 102
+24-04-25.00:49:29.177 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100001 102 rule_default
+24-04-25.00:49:29.242 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-04-25.00:49:29.377 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-04-25.00:50:08.968 [main            ] INFO  RaffleStrategyTest01   - Starting RaffleStrategyTest01 using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 10056 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
+24-04-25.00:50:08.993 [main            ] INFO  RaffleStrategyTest01   - The following 1 profile is active: "dev"
+24-04-25.00:50:09.927 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-04-25.00:50:09.930 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-04-25.00:50:09.968 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+24-04-25.00:50:12.613 [main            ] INFO  Version                - Redisson 3.23.4
+24-04-25.00:50:13.578 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.00:50:13.609 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.00:50:15.781 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-04-25.00:50:15.885 [main            ] INFO  RaffleStrategyTest01   - Started RaffleStrategyTest01 in 7.441 seconds (JVM running for 8.881)
+24-04-25.00:50:16.397 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-04-25.00:50:17.526 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-04-25.00:50:17.615 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
+24-04-25.00:50:17.629 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
+24-04-25.00:50:17.643 [main            ] INFO  RaffleStrategyTest01   - 测试结果：true
+24-04-25.00:50:17.656 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
+24-04-25.00:50:17.722 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单放行 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
+24-04-25.00:50:17.723 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight
+24-04-25.00:50:17.728 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重放行 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight
+24-04-25.00:50:17.769 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100001 ruleModel: rule_default awardId: 101
+24-04-25.00:50:17.771 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100001 101 rule_default
+24-04-25.00:52:07.204 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m18s880ms601µs700ns).
+24-04-25.00:52:42.450 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-04-25.00:52:42.758 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-04-25.01:03:57.884 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 27504 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
+24-04-25.01:03:57.885 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+24-04-25.01:03:58.729 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-04-25.01:03:58.732 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-04-25.01:03:58.764 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+24-04-25.01:04:00.548 [main            ] INFO  Version                - Redisson 3.23.4
+24-04-25.01:04:01.514 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.01:04:01.534 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.01:04:03.167 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-04-25.01:04:03.280 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 5.815 seconds (JVM running for 6.795)
+24-04-25.01:04:03.775 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-04-25.01:04:04.696 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-04-25.01:04:04.786 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-04-25.01:04:04.811 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-04-25.01:04:04.827 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100006 ruleModel: rule_default awardId: 101
+24-04-25.01:04:04.828 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100006 101 rule_default
+24-04-25.01:04:04.858 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_lock code:0000
+24-04-25.01:04:04.859 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_stock code:0001
+24-04-25.01:04:04.860 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_luck_award code:0001
+24-04-25.01:04:04.860 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 xiaofuge 100006 101 1,100
+24-04-25.01:04:05.067 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100006,"userId":"xiaofuge"}
+24-04-25.01:04:05.070 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardConfig":"1,100","awardId":101}
+24-04-25.01:04:05.113 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-04-25.01:04:05.161 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-04-25.01:04:50.529 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 7856 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
+24-04-25.01:04:50.529 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+24-04-25.01:04:51.415 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-04-25.01:04:51.418 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-04-25.01:04:51.470 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 0 Redis repository interfaces.
+24-04-25.01:04:53.512 [main            ] INFO  Version                - Redisson 3.23.4
+24-04-25.01:04:54.423 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.01:04:54.447 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.01:04:56.299 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-04-25.01:04:56.419 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 6.315 seconds (JVM running for 7.563)
+24-04-25.01:04:56.932 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-04-25.01:04:58.112 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-04-25.01:04:58.186 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-04-25.01:04:58.206 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-04-25.01:04:58.224 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单开始 userId: user003 strategyId: 100001 ruleModel: rule_blacklist
+24-04-25.01:04:58.247 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单接管 userId: user003 strategyId: 100001 ruleModel: rule_blacklist award: 100
+24-04-25.01:04:58.247 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 user003 100001 100 rule_blacklist
+24-04-25.01:04:58.371 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100001,"userId":"user003"}
+24-04-25.01:04:58.374 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardId":100}
+24-04-25.01:04:58.419 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-04-25.01:04:58.523 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-04-25.01:07:36.737 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 35272 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
+24-04-25.01:07:36.737 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+24-04-25.01:07:37.784 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-04-25.01:07:37.788 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-04-25.01:07:37.830 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+24-04-25.01:07:40.079 [main            ] INFO  Version                - Redisson 3.23.4
+24-04-25.01:07:41.042 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.01:07:41.079 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.01:07:42.432 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-04-25.01:07:42.491 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 6.237 seconds (JVM running for 7.057)
+24-04-25.01:07:42.970 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-04-25.01:07:43.894 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-04-25.01:07:43.969 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-04-25.01:07:43.995 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-04-25.01:07:43.999 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-04-25.01:07:44.013 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100003 ruleModel: rule_default awardId: 108
+24-04-25.01:07:44.013 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100003 108 rule_default
+24-04-25.01:07:44.070 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-04-25.01:07:44.265 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-04-25.01:18:07.502 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 28056 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
+24-04-25.01:18:07.504 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+24-04-25.01:18:08.468 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-04-25.01:18:08.471 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-04-25.01:18:08.509 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+24-04-25.01:18:10.680 [main            ] INFO  Version                - Redisson 3.23.4
+24-04-25.01:18:11.630 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.01:18:11.671 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.01:18:13.574 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-04-25.01:18:13.710 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 6.654 seconds (JVM running for 7.778)
+24-04-25.01:18:14.331 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-04-25.01:18:15.327 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-04-25.01:18:15.423 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-04-25.01:18:15.439 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-04-25.01:18:15.453 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-04-25.01:18:15.474 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单开始 userId: user003 strategyId: 100001 ruleModel: rule_blacklist
+24-04-25.01:18:15.497 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单接管 userId: user003 strategyId: 100001 ruleModel: rule_blacklist award: 100
+24-04-25.01:18:15.498 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 user003 100001 100 rule_blacklist
+24-04-25.01:18:15.646 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100001,"userId":"user003"}
+24-04-25.01:18:15.649 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardId":100}
+24-04-25.01:18:15.696 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-04-25.01:18:15.730 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-04-25.01:18:36.541 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 23372 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
+24-04-25.01:18:36.543 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+24-04-25.01:18:37.397 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-04-25.01:18:37.400 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-04-25.01:18:37.447 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
+24-04-25.01:18:39.273 [main            ] INFO  Version                - Redisson 3.23.4
+24-04-25.01:18:40.146 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.01:18:40.171 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.01:18:41.907 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-04-25.01:18:41.972 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 5.852 seconds (JVM running for 6.839)
+24-04-25.01:18:42.478 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-04-25.01:18:43.443 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-04-25.01:18:43.540 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-04-25.01:18:43.550 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-04-25.01:18:43.559 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-04-25.01:18:43.579 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100006 ruleModel: rule_default awardId: 108
+24-04-25.01:18:43.580 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100006 108 rule_default
+24-04-25.01:18:43.654 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-04-25.01:18:43.823 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-04-25.01:19:20.896 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 22208 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
+24-04-25.01:19:20.897 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+24-04-25.01:19:21.902 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-04-25.01:19:21.905 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-04-25.01:19:21.940 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+24-04-25.01:19:24.086 [main            ] INFO  Version                - Redisson 3.23.4
+24-04-25.01:19:24.987 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.01:19:25.022 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.01:19:26.848 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-04-25.01:19:26.941 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 6.463 seconds (JVM running for 7.703)
+24-04-25.01:19:27.498 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-04-25.01:19:28.772 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-04-25.01:19:28.900 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-04-25.01:19:28.923 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-04-25.01:19:28.935 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-04-25.01:19:28.969 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100006 ruleModel: rule_default awardId: 101
+24-04-25.01:19:28.972 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100006 101 rule_default
+24-04-25.01:19:28.999 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_lock code:0000
+24-04-25.01:19:29.001 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_stock code:0001
+24-04-25.01:19:29.004 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_luck_award code:0001
+24-04-25.01:19:29.004 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 xiaofuge 100006 101 1,100
+24-04-25.01:19:29.224 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100006,"userId":"xiaofuge"}
+24-04-25.01:19:29.228 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardConfig":"1,100","awardId":101}
+24-04-25.01:19:29.271 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-04-25.01:19:29.475 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-04-25.01:19:53.059 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 60124 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
+24-04-25.01:19:53.061 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+24-04-25.01:19:53.987 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-04-25.01:19:53.994 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-04-25.01:19:54.045 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34 ms. Found 0 Redis repository interfaces.
+24-04-25.01:19:56.418 [main            ] INFO  Version                - Redisson 3.23.4
+24-04-25.01:19:57.274 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.01:19:57.314 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.01:19:59.218 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-04-25.01:19:59.330 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 6.708 seconds (JVM running for 7.551)
+24-04-25.01:19:59.820 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-04-25.01:20:01.017 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-04-25.01:20:01.101 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-04-25.01:20:01.121 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-04-25.01:20:01.132 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-04-25.01:20:01.141 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单开始 userId: user003 strategyId: 100001 ruleModel: rule_blacklist
+24-04-25.01:20:01.170 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单接管 userId: user003 strategyId: 100001 ruleModel: rule_blacklist award: 100
+24-04-25.01:20:01.172 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 user003 100001 100 rule_blacklist
+24-04-25.01:20:01.302 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100001,"userId":"user003"}
+24-04-25.01:20:01.307 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardId":100}
+24-04-25.01:20:01.357 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-04-25.01:20:01.443 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-04-25.01:20:17.007 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 43456 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
+24-04-25.01:20:17.008 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+24-04-25.01:20:17.866 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-04-25.01:20:17.870 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-04-25.01:20:17.917 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+24-04-25.01:20:19.818 [main            ] INFO  Version                - Redisson 3.23.4
+24-04-25.01:20:20.629 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.01:20:20.649 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.01:20:22.350 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-04-25.01:20:22.437 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 5.848 seconds (JVM running for 6.724)
+24-04-25.01:20:22.924 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-04-25.01:20:23.803 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-04-25.01:20:23.879 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-04-25.01:20:23.897 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-04-25.01:20:23.905 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-04-25.01:20:23.924 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100006 ruleModel: rule_default awardId: 101
+24-04-25.01:20:23.926 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100006 101 rule_default
+24-04-25.01:20:23.936 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_lock code:0000
+24-04-25.01:20:23.936 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_stock code:0001
+24-04-25.01:20:23.937 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_luck_award code:0001
+24-04-25.01:20:23.937 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 xiaofuge 100006 101 1,100
+24-04-25.01:20:24.076 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100006,"userId":"xiaofuge"}
+24-04-25.01:20:24.080 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardConfig":"1,100","awardId":101}
+24-04-25.01:20:24.126 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-04-25.01:20:24.226 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-04-25.01:21:46.499 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 54244 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
+24-04-25.01:21:46.500 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+24-04-25.01:21:47.336 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-04-25.01:21:47.339 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-04-25.01:21:47.373 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+24-04-25.01:21:49.563 [main            ] INFO  Version                - Redisson 3.23.4
+24-04-25.01:21:50.452 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.01:21:50.495 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.01:21:52.290 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-04-25.01:21:52.391 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 6.319 seconds (JVM running for 7.158)
+24-04-25.01:21:52.929 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-04-25.01:21:54.134 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-04-25.01:21:54.246 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-04-25.01:21:54.297 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-04-25.01:21:54.308 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-04-25.01:21:54.319 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100002 ruleModel: rule_default awardId: 101
+24-04-25.01:21:54.320 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100002 101 rule_default
+24-04-25.01:21:54.384 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-04-25.01:21:54.580 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-04-25.01:22:28.170 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 1.8.0_391 on LAPTOP-78N42JA7 with PID 49800 (started by 12640 in D:\java\ideaproject\big-market-orm\big-market-app)
+24-04-25.01:22:28.171 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+24-04-25.01:22:29.105 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-04-25.01:22:29.111 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-04-25.01:22:29.147 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+24-04-25.01:22:31.178 [main            ] INFO  Version                - Redisson 3.23.4
+24-04-25.01:22:32.029 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.01:22:32.067 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-04-25.01:22:33.739 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-04-25.01:22:33.858 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 6.136 seconds (JVM running for 7.043)
+24-04-25.01:22:34.340 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-04-25.01:22:35.469 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-04-25.01:22:35.544 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-04-25.01:22:35.556 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-04-25.01:22:35.564 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-04-25.01:22:35.573 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
+24-04-25.01:22:35.604 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单放行 userId: xiaofuge strategyId: 100001 ruleModel: rule_blacklist
+24-04-25.01:22:35.604 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重开始 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight
+24-04-25.01:22:35.613 [main            ] INFO  RuleWeightLogicChain   - 抽奖责任链-权重接管 userId: xiaofuge strategyId: 100001 ruleModel: rule_weight awardId: 103
+24-04-25.01:22:35.614 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100001 103 rule_weight
+24-04-25.01:22:35.787 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100001,"userId":"xiaofuge"}
+24-04-25.01:22:35.790 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardId":103}
+24-04-25.01:22:35.828 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-04-25.01:22:35.947 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
