@@ -32,20 +32,27 @@ public class StrategyEntity {
         if (StringUtils.isBlank(ruleModels)) return null;
         return ruleModels.split(Constants.SPLIT);
     }
-    //如果再策略表里的ruleModels字段有rule_weight
+            //如果再策略表里的ruleModels字段有rule_weight
+        //    public String getRuleWeight() {
+        //        String[] ruleModels = this.ruleModels();
+        //        if (ruleModels == null) {
+        //            // 在 ruleModels 为空时，返回一个空字符串
+        //            return "";
+        //        }
+        //        for (String ruleModel : ruleModels) {
+        //            if ("rule_weight".equals(ruleModel)) {
+        //                return ruleModel;
+        //            }
+        //        }
+        //        return null;
+        //    }
     public String getRuleWeight() {
         String[] ruleModels = this.ruleModels();
-        if (ruleModels == null) {
-            // 在 ruleModels 为空时，返回一个空字符串
-            return "";
-        }
+        if (null == ruleModels) return null;
         for (String ruleModel : ruleModels) {
-            if ("rule_weight".equals(ruleModel)) {
-                return ruleModel;
-            }
+            if ("rule_weight".equals(ruleModel)) return ruleModel;
         }
         return null;
     }
-
 
 }

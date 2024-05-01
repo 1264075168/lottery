@@ -38,7 +38,7 @@ public class DefaultTreeFactory {
     @NoArgsConstructor
     public static class TreeActionEntity {
         private RuleLogicCheckTypeVO ruleLogicCheckType;//过滤的结果，是“放行”或者“拦截”
-        private StrategyAwardVO strategyAwardData;//奖品信息
+        private StrategyAwardVO strategyAwardVO;//奖品信息
     }
 
     @Data
