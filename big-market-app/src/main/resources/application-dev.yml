@@ -33,7 +33,7 @@ spring:
     url: jdbc:mysql://127.0.0.1:13306/big_market?useUnicode=true&characterEncoding=utf8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&serverTimezone=UTC&useSSL=true
     driver-class-name: com.mysql.cj.jdbc.Driver
   hikari:
-    pool-name: Retail_HikariCP
+    pool-name: Retail_Hik ariCP
     minimum-idle: 15 #最小空闲连接数量
     idle-timeout: 180000 #空闲连接存活最大时间，默认600000（10分钟）
     maximum-pool-size: 25 #连接池最大连接数，默认是10
